@@ -1,0 +1,74 @@
+/* 菜单栏链接 */
+.nav-link-d {
+  display: block;
+  padding: .5rem 1rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  color: #343636;
+  text-decoration: none !important;
+  transition: opacity 0.1s ease;
+}
+
+.nav-link-d:hover {
+  opacity: 0.8;
+  text-decoration: none !important;
+}
+
+.nav-link-d:visited {
+  text-decoration: none !important;
+}
+
+.nav-link-d:active {
+  text-decoration: none !important;
+}
+
+.nav-link-d[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+
+/* 首页第一个 */
+.left {
+  float: left;
+  width: 650px;
+  height: 500px;
+  margin-right: -100%;
+}
+
+.right {
+  float: left;
+  width: 100%;
+}
+
+.right-content {
+  height: 500px;
+  margin-left: 660px;
+}
+
+/* 链接 */
+.class-link {
+  color: #2DBAE8;
+  text-decoration: none !important;
+  transition: opacity 0.1s ease;
+}
+
+.class-link:hover {
+  opacity: 0.8;
+  text-decoration: none !important;
+}
+
+.class-link:visited {
+  text-decoration: none !important;
+}
+
+.class-link:active {
+  text-decoration: none !important;
+}
+
+.class-link[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+
